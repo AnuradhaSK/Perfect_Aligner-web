@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="perfectalignerweb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PerfectAligner.war">
+      <element id="artifact" artifact-name="perfectalignerweb:war exploded" />
+    </root>
+  </artifact>
+</component>
