@@ -1,3 +1,9 @@
 com\anuradha\perfectaligner\config\AppConfig.class
+com\anuradha\perfectaligner\util\SequenceAlignment.class
 com\anuradha\perfectaligner\config\AppInitializer.class
+test\Testing.class
+com\anuradha\perfectaligner\util\NeedlemanWunsch.class
+com\anuradha\perfectaligner\util\DynamicProgramming.class
+com\anuradha\perfectaligner\util\SmithWaterman.class
+com\anuradha\perfectaligner\util\Cell.class
 com\anuradha\perfectaligner\web\ActivityController.class
