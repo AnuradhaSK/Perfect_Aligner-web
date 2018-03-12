@@ -67,7 +67,7 @@ public class SmithWaterman extends SequenceAlignment {
      */
     @Override
     public String toString() {
-        return "[NeedlemanWunsch: sequence1=" + sequence1 + ", sequence2="
+        return "[SmithWaterman: sequence1=" + sequence1 + ", sequence2="
                 + sequence2 + "]";
     }
 

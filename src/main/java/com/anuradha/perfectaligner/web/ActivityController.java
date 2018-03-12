@@ -15,23 +15,27 @@ public class ActivityController {
 
     @CrossOrigin
     @GetMapping("/test")
-    public String  getVal(String sequence1, String sequence2, String match, String mismatch, String gap) {
+    public String getVal(String sequence1, String sequence2, String match, String mismatch, String gap) {
 
-        SequenceAlignment nw=new NeedlemanWunsch(sequence1.toString(), sequence2.toString(), Integer.parseInt(match), Integer.parseInt(mismatch), Integer.parseInt(gap));
+        // create a needleman wunsch object
+        SequenceAlignment nw = new NeedlemanWunsch(sequence1.toString(), sequence2.toString(), Integer.parseInt(match), Integer.parseInt(mismatch), Integer.parseInt(gap));
         JSONArray jsonArray = new JSONArray();
 
-        Cell[][]cellgrid=nw.getCellTabel();
+        // call getCellTabel method which contains the values of the grid
+        Cell[][] cellgrid = nw.getCellTabel();
         for (int i = 1; i < cellgrid.length; i++) {
 
             for (int j = 1; j < cellgrid[i].length; j++) {
+                //create json object per cell
                 JSONObject jsonObject = new JSONObject();
 
                 try {
-                    jsonObject.put("row",cellgrid[i][j].getRow());
-                    jsonObject.put("col",cellgrid[i][j].getCol());
-                    jsonObject.put("score",cellgrid[i][j].getScore());
-                    jsonObject.put("preRow",cellgrid[i][j].getPrevCell().getRow());
-                    jsonObject.put("preCol",cellgrid[i][j].getPrevCell().getCol());
+                    // add row,column,score,reference cell's row,reference cell's column value to the json object
+                    jsonObject.put("row", cellgrid[i][j].getRow());
+                    jsonObject.put("col", cellgrid[i][j].getCol());
+                    jsonObject.put("score", cellgrid[i][j].getScore());
+                    jsonObject.put("preRow", cellgrid[i][j].getPrevCell().getRow());
+                    jsonObject.put("preCol", cellgrid[i][j].getPrevCell().getCol());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -42,8 +46,10 @@ public class ActivityController {
             }
         }
 
+        //call getTracebackCells method
         List<Cell> finalcell = nw.getTracebackCells();
 
+        // add the row,column values of cells which are on the traceback path
         for (int i = 0; i < finalcell.size(); i++) {
             JSONObject jsonObject3 = new JSONObject();
             try {
@@ -56,7 +62,8 @@ public class ActivityController {
         }
 
 
-        String[] sequences= nw.getAlignment();
+        // add aligned sequences to a json object
+        String[] sequences = nw.getAlignment();
         JSONObject jsonObject2 = new JSONObject();
 
         try {
@@ -68,13 +75,9 @@ public class ActivityController {
         jsonArray.put(jsonObject2);
 
 
-        //return "pass" + sequence1;
-
         return jsonArray.toString();
 
-      // return sequence1+","+sequence2+","+match+","+mismatch+","+gap;
     }
-
 
 
 }

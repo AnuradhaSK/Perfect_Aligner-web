@@ -27,6 +27,7 @@ public abstract class DynamicProgramming {
         return matrix;
     }
 
+    //initialize the scores of the table
     protected void initializeScores() {
         for (int i = 0; i < scoreTable.length; i++) {
             for (int j = 0; j < scoreTable[i].length; j++) {
@@ -35,6 +36,7 @@ public abstract class DynamicProgramming {
         }
     }
 
+    //initialize the pointers
     protected void initializePointers() {
         for (int i = 0; i < scoreTable.length; i++) {
             for (int j = 0; j < scoreTable[i].length; j++) {
@@ -43,6 +45,7 @@ public abstract class DynamicProgramming {
         }
     }
 
+    //call score and pointer initialization
     protected void initialize() {
         for (int i = 0; i < scoreTable.length; i++) {
             for (int j = 0; j < scoreTable[i].length; j++) {
@@ -62,6 +65,7 @@ public abstract class DynamicProgramming {
     protected abstract void fillInCell(Cell currentCell, Cell cellAbove,
                                        Cell cellToLeft, Cell cellAboveLeft);
 
+    //call cell filling
     protected void fillIn() {
         for (int row = 1; row < scoreTable.length; row++) {
             for (int col = 1; col < scoreTable[row].length; col++) {
@@ -137,7 +141,6 @@ public abstract class DynamicProgramming {
     }
 
     public Cell[][] getCellTabel(){
-
         ensureTableIsFilledIn();
         return scoreTable;
     }
