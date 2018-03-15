@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [12/Mar/2018:18:52:48 +0530] "GET /perfectaligner/smithwaterman?sequence1=ASASA&sequence2=SSA&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 855 http-bio-8080-exec-1 756
-0:0:0:0:0:0:0:1 - - [12/Mar/2018:18:55:15 +0530] "GET /perfectaligner/smithwaterman?sequence1=AAASSS&sequence2=ASS&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 1029 http-bio-8080-exec-3 15

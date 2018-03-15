@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:45:11 +0530] "GET /perfectaligner/dialign HTTP/1.1" 200 237 http-bio-8080-exec-2 201
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:47:18 +0530] "GET /perfectaligner/dialign HTTP/1.1" 200 237 http-bio-8080-exec-5 20
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:49:00 +0530] "GET /perfectaligner/dialign HTTP/1.1" 200 12 http-bio-8080-exec-2 257
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:49:44 +0530] "GET /perfectaligner/dialign HTTP/1.1" 200 123 http-bio-8080-exec-2 281

@@ -15,7 +15,7 @@ public class Testing {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        /*SequenceAlignment nwObject= new NeedlemanWunsch("GGTTGACTA", "TGTTA", 1, -1, -1);
+        SequenceAlignment nwObject= new NeedlemanWunsch("GGTTGACTA", "TGTTA", 1, -1, -1);
         nwObject.printScoreTable();
 
         String[] alignedSequences= nwObject.getAlignment();
@@ -34,7 +34,7 @@ public class Testing {
                 System.out.println();
             }
             System.out.println("\n");
-        }*/
+        }
 
 
 
@@ -66,6 +66,7 @@ public class Testing {
             System.out.print(finalcell.get(i).getRow());
             System.out.print(finalcell.get(i).getCol());
         }
+
 
     }
 }
