@@ -8,7 +8,7 @@ public class ReadFastaFile {
 
     public static void main(String[] args) throws IOException {
 
-        /*boolean first = true;
+        boolean first = true;
         FileReader file = new FileReader("C:/Users/sudu/Desktop/test.fasta.txt");
         BufferedReader br = new BufferedReader(file);
         String currentLine;
@@ -29,6 +29,6 @@ public class ReadFastaFile {
             }
 
             counter += 1;
-        }*/
+        }
     }
 }
