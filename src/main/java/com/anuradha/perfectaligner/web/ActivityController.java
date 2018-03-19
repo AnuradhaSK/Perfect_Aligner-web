@@ -36,6 +36,9 @@ public class ActivityController {
                     jsonObject.put("score", cellgrid[i][j].getScore());
                     jsonObject.put("preRow", cellgrid[i][j].getPrevCell().getRow());
                     jsonObject.put("preCol", cellgrid[i][j].getPrevCell().getCol());
+                    jsonObject.put("upScore", cellgrid[i][j].getScoreFromUp());
+                    jsonObject.put("leftScore", cellgrid[i][j].getScoreFromLeft());
+                    jsonObject.put("diagonalScore", cellgrid[i][j].getScoreFromDiagonal());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

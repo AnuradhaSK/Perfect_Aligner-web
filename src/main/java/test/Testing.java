@@ -31,6 +31,9 @@ public class Testing {
                 System.out.print(cells[i][j].getPrevCell().getRow());
                 System.out.print(cells[i][j].getPrevCell().getCol());
                 System.out.print(cells[i][j].getScore());
+                System.out.print(cells[i][j].getScoreFromUp());
+                System.out.print(cells[i][j].getScoreFromLeft());
+                System.out.print(cells[i][j].getScoreFromDiagonal());
                 System.out.println();
             }
             System.out.println("\n");
@@ -53,8 +56,12 @@ public class Testing {
                 if (swcells[i][j].getPrevCell() !=null) {
                     System.out.print(swcells[i][j].getPrevCell().getRow());
                     System.out.print(swcells[i][j].getPrevCell().getCol());
+
                 }
                 System.out.print( swcells[i][j].getScore());
+                System.out.print( swcells[i][j].getScoreFromUp());
+                System.out.print(swcells[i][j].getScoreFromLeft());
+                System.out.print(swcells[i][j].getScoreFromDiagonal());
                 System.out.println();
             }
             System.out.println("\n");

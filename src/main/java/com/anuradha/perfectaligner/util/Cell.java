@@ -5,6 +5,9 @@ public class Cell {
     private int score;
     private int row;
     private int col;
+    private int scoreFromUp;
+    private int scoreFromLeft;
+    private int scoreFromDiagonal;
 
     public Cell(int row, int col) {
         this.row = row;
@@ -55,6 +58,38 @@ public class Cell {
         return prevCell;
     }
 
+    public void setScoreFromLeft(int score) {
+        this.scoreFromLeft = score;
+    }
+
+    /**
+     * @return the scoreFromLeft
+     */
+    public int getScoreFromLeft() {
+        return scoreFromLeft;
+    }
+
+    public void setScoreFromUp(int score) {
+        this.scoreFromUp = score;
+    }
+
+    /**
+     * @return the scoreFromUp
+     */
+    public int getScoreFromUp() {
+        return scoreFromUp;
+    }
+
+    public void setScoreFromDiagonal(int score) {
+        this.scoreFromDiagonal = score;
+    }
+
+    /**
+     * @return the scoreFromDiagonal
+     */
+    public int getScoreFromDiagonal() {
+        return scoreFromDiagonal;
+    }
     /*
      * (non-Javadoc)
      *

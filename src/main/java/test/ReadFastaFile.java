@@ -1,8 +1,7 @@
 package test;
 
 import java.io.*;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
+
 
 public class ReadFastaFile {
 

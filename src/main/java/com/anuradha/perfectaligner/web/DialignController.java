@@ -16,9 +16,9 @@ import java.util.ArrayList;
 public class DialignController {
     @CrossOrigin
     @GetMapping("/dialign")
-    public String getVal() throws IOException, JSONException {
+    public String getVal(String path) throws IOException, JSONException {
         FastaReader dialignObject = new FastaReader();
-        ArrayList<Gene> array = dialignObject.read();
+        ArrayList<Gene> array = dialignObject.read(path);
         JSONArray jsonArray = new JSONArray();
         for (int i=0; i<array.size();i++) {
             JSONObject jsonObject = new JSONObject();

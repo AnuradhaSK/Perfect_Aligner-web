@@ -13,9 +13,9 @@ public class FastaReader {
     public FastaReader(){
         geneArray = new ArrayList<Gene>();
     }
-    public ArrayList<Gene> read() throws IOException {
+    public ArrayList<Gene> read(String path) throws IOException {
         boolean first = true;
-        FileReader file = new FileReader("C:/Users/sudu/Desktop/test.fasta.txt");
+        FileReader file = new FileReader(path);
         BufferedReader br = new BufferedReader(file);
         String currentLine;
         Integer counter = 0;

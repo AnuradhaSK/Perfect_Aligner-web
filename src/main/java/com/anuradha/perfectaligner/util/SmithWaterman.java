@@ -55,6 +55,9 @@ public class SmithWaterman extends SequenceAlignment {
                 }
             }
         }
+        currentCell.setScoreFromUp(rowSpaceScore);
+        currentCell.setScoreFromLeft(colSpaceScore);
+        currentCell.setScoreFromDiagonal(matchOrMismatchScore);
         if (currentCell.getScore() > highScoreCell.getScore()) {
             highScoreCell = currentCell;
         }

@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:16:48 +0530] "GET /perfectaligner/test?sequence1=JHDFDSJG&sequence2=JHGDJF&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 4851 http-bio-8080-exec-1 157
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:20:09 +0530] "GET /perfectaligner/test?sequence1=ASDA&sequence2=GFGFD&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 2131 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:25:19 +0530] "GET /perfectaligner/test?sequence1=HGHFH&sequence2=FGFG&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 2107 http-bio-8080-exec-6 16
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:28:09 +0530] "GET /perfectaligner/test?sequence1=QASDADS&sequence2=HGHJGJ&match=1&mismatch=0&gap=-1 HTTP/1.1" 200 4295 http-bio-8080-exec-8 47
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:31:38 +0530] "GET /perfectaligner/test?sequence1=JHKHKHJK&sequence2=JBKJBK&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 4917 http-bio-8080-exec-10 360
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:38:53 +0530] "GET /perfectaligner/test?sequence1=FDGD&sequence2=FDFSD&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 2080 http-bio-8080-exec-1 1213
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:17:42:20 +0530] "GET /perfectaligner/test?sequence1=JEHTJE&sequence2=KJTKEJTK&match=1&mismatch=-1&gap=-1 HTTP/1.1" 200 4933 http-bio-8080-exec-4 227

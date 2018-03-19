@@ -15,12 +15,16 @@ public class NeedlemanWunsch extends SequenceAlignment {
                               Cell cellAboveLeft) {
         int rowSpaceScore = cellAbove.getScore() + space;
         int colSpaceScore = cellToLeft.getScore() + space;
+        currentCell.setScoreFromUp(rowSpaceScore);
+        currentCell.setScoreFromLeft(colSpaceScore);
         int matchOrMismatchScore = cellAboveLeft.getScore();
         if (sequence2.charAt(currentCell.getRow() - 1) == sequence1
                 .charAt(currentCell.getCol() - 1)) {
             matchOrMismatchScore += match;
+            currentCell.setScoreFromDiagonal(matchOrMismatchScore);
         } else {
             matchOrMismatchScore += mismatch;
+            currentCell.setScoreFromDiagonal(matchOrMismatchScore);
         }
         if (rowSpaceScore >= colSpaceScore) {
             if (matchOrMismatchScore >= rowSpaceScore) {

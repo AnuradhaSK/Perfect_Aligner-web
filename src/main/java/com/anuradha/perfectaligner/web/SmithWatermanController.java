@@ -36,6 +36,9 @@ public class SmithWatermanController {
                     jsonObject.put("row", cellgrid[i][j].getRow());
                     jsonObject.put("col", cellgrid[i][j].getCol());
                     jsonObject.put("score", cellgrid[i][j].getScore());
+                    jsonObject.put("upScore", cellgrid[i][j].getScoreFromUp());
+                    jsonObject.put("leftScore", cellgrid[i][j].getScoreFromLeft());
+                    jsonObject.put("diagonalScore", cellgrid[i][j].getScoreFromDiagonal());
                     // if the cell has a reference cell
                     if (cellgrid[i][j].getPrevCell() != null) {
                         // put the row and the column number of the reference cell
