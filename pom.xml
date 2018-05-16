@@ -34,6 +34,11 @@
           <artifactId>json</artifactId>
           <version>20090211</version>
       </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>RELEASE</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>PerfectAligner</finalName>
@@ -42,7 +47,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
-            <version>3.0.2</version>
+            <version>3.3.9</version>
             <executions>
                 <execution>
                     <phase>package</phase>
@@ -52,7 +57,7 @@
                             <artifactItem>
                                 <groupId>com.github.jsimone</groupId>
                                 <artifactId>webapp-runner</artifactId>
-                                <version>8.5.27.0</version>
+                                <version>7.0.34.3</version>
                                 <destFileName>webapp-runner.jar</destFileName>
                             </artifactItem>
                         </artifactItems>

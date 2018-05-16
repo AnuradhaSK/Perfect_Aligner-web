@@ -66,7 +66,7 @@ public class NeedlemanWunsch extends SequenceAlignment {
                 + sequence2 + "]";
     }
 
-    protected Cell getInitialPointer(int row, int col) {
+    public Cell getInitialPointer(int row, int col) {
         if (row == 0 && col != 0) {
             return scoreTable[row][col - 1];
         } else if (col == 0 && row != 0) {
@@ -76,7 +76,7 @@ public class NeedlemanWunsch extends SequenceAlignment {
         }
     }
 
-    protected int getInitialScore(int row, int col) {
+    public int getInitialScore(int row, int col) {
         if (row == 0 && col != 0) {
             return col * space;
         } else if (col == 0 && row != 0) {

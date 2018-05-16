@@ -14,6 +14,8 @@ public abstract class DynamicProgramming {
         scoreTable = new Cell[sequence2.length() + 1][sequence1.length() + 1];
     }
 
+
+    // return the score table
     public int[][] getScoreTable() {
         ensureTableIsFilledIn();
 
@@ -48,6 +50,7 @@ public abstract class DynamicProgramming {
     //call score and pointer initialization
     protected void initialize() {
         for (int i = 0; i < scoreTable.length; i++) {
+
             for (int j = 0; j < scoreTable[i].length; j++) {
                 scoreTable[i][j] = new Cell(i, j);
             }
