@@ -11,6 +11,7 @@ public class NeedlemanWunsch extends SequenceAlignment {
         super(sequence1, sequence2, match, mismatch, gap);
     }
 
+    // assign values for each cell
     protected void fillInCell(Cell currentCell, Cell cellAbove, Cell cellToLeft,
                               Cell cellAboveLeft) {
         int rowSpaceScore = cellAbove.getScore() + space;
@@ -66,6 +67,7 @@ public class NeedlemanWunsch extends SequenceAlignment {
                 + sequence2 + "]";
     }
 
+    // initialize the pointers of cells in the dynamic matrix
     public Cell getInitialPointer(int row, int col) {
         if (row == 0 && col != 0) {
             return scoreTable[row][col - 1];
@@ -76,6 +78,7 @@ public class NeedlemanWunsch extends SequenceAlignment {
         }
     }
 
+    // initialize the starting values of cells in dynamic matrix
     public int getInitialScore(int row, int col) {
         if (row == 0 && col != 0) {
             return col * space;

@@ -24,6 +24,7 @@ public abstract class SequenceAlignment extends DynamicProgramming {
         this.space = gap;
     }
 
+
     protected Object getTraceback() {
         StringBuffer align1Buf = new StringBuffer();
         StringBuffer align2Buf = new StringBuffer();
@@ -62,6 +63,7 @@ public abstract class SequenceAlignment extends DynamicProgramming {
 
     protected abstract boolean traceBackIsNotDone(Cell currentCell);
 
+    // return the score related to the alignment by after completing the alignment
     public int getAlignmentScore() {
         if (alignments == null) {
             getAlignment();
@@ -83,6 +85,7 @@ public abstract class SequenceAlignment extends DynamicProgramming {
         return score;
     }
 
+    // return the aligned results after aligning done after cheching the matrix is filled
     public String[] getAlignment() {
         ensureTableIsFilledIn();
         alignments = (String[]) getTraceback();

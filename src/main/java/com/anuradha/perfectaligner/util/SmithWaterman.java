@@ -19,6 +19,7 @@ public class SmithWaterman extends SequenceAlignment {
         highScoreCell = scoreTable[0][0];
     }
 
+    // asssign value for a cell during the alignment
     protected void fillInCell(Cell currentCell, Cell cellAbove, Cell cellToLeft,
                               Cell cellAboveLeft) {
         int rowSpaceScore = cellAbove.getScore() + space;

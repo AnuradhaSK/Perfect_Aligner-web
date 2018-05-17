@@ -2,54 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db395ae5-ec7c-4758-89f3-02ff0f9621c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/perfectalignerweb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/perfectalignerweb_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Procfile.txt" afterPath="$PROJECT_DIR$/Procfile.txt" />
-      <change beforePath="$PROJECT_DIR$/perfectalignerweb.iml" afterPath="$PROJECT_DIR$/perfectalignerweb.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java" afterPath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/FastaReader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/Gene.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java" afterPath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java" afterPath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java" afterPath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/web/DialignController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/ReadFastaFile.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Testing.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/PerfectAligner.war" afterPath="$PROJECT_DIR$/target/PerfectAligner.war" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anuradha/perfectaligner/util/DynamicProgramming.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anuradha/perfectaligner/util/FastaReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anuradha/perfectaligner/util/Gene.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anuradha/perfectaligner/web/DialignController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/ReadFastaFile.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Testing.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/config/AppConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/config/AppInitializer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/Cell.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/DynamicProgramming.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/FastaReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/Gene.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/NeedlemanWunsch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/SequenceAlignment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/util/SmithWaterman.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/web/ActivityController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/web/DialignController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/com/anuradha/perfectaligner/web/SmithWatermanController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/test/ReadFastaFile.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/classes/test/Testing.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/jackson-annotations-2.7.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/jackson-core-2.7.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/jackson-databind-2.7.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/json-20090211.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-beans-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-context-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-core-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-expression-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-web-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/_/WEB-INF/lib/spring-webmvc-4.3.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-runner.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmithWaterman.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SmithWaterman.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+            <state relative-caret-position="17">
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -105,8 +62,8 @@
       <file leaf-file-name="SmithWatermanTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/SmithWatermanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -115,8 +72,8 @@
       <file leaf-file-name="DynamicProgramming.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="100" column="66" lean-forward="true" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
+            <state relative-caret-position="2550">
+              <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -135,7 +92,7 @@
       <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/CellTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
+            <state relative-caret-position="1615">
               <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,8 +108,8 @@
       <file leaf-file-name="SequenceAlignment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="1428">
+              <caret line="87" column="89" lean-forward="false" selection-start-line="87" selection-start-column="89" selection-end-line="87" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -161,18 +118,18 @@
       <file leaf-file-name="NeedlemanWunsch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+            <state relative-caret-position="1258">
+              <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeedlemanWunschTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeedlemanWunschTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/NeedlemanWunschTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,7 +169,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/FastaSequence.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/Gene.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/ReadFastaFile.java" />
@@ -224,13 +180,14 @@
         <option value="$PROJECT_DIR$/src/main/java/test/Testing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/CellTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/CellTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/DynamicProgrammingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunschTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/SmithWatermanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/NeedlemanWunschTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java" />
       </list>
     </option>
   </component>
@@ -268,6 +225,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,10 +281,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -636,7 +593,8 @@
       <workItem from="1526145135368" duration="1917000" />
       <workItem from="1526373817884" duration="4259000" />
       <workItem from="1526409637311" duration="2242000" />
-      <workItem from="1526483135072" duration="5277000" />
+      <workItem from="1526483135072" duration="6951000" />
+      <workItem from="1526547731203" duration="126000" />
     </task>
     <servers />
   </component>
@@ -673,42 +631,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121491000" />
+    <option name="totallyTimeSpent" value="123291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4057508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24724409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24724409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16032211" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23206443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4057508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16032211" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -974,30 +931,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/DynamicProgrammingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunschTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="100" column="66" lean-forward="true" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/DynamicProgrammingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunschTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1006,41 +941,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/SmithWatermanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
+        <state relative-caret-position="1615">
           <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1054,11 +965,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/NeedlemanWunschTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/DynamicProgramming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/NeedlemanWunsch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SequenceAlignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="87" column="89" lean-forward="false" selection-start-line="87" selection-start-column="89" selection-end-line="87" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anuradha/perfectaligner/util/SmithWaterman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

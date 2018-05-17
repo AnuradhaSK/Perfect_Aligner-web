@@ -61,10 +61,13 @@ public abstract class DynamicProgramming {
         isInitialized = true;
     }
 
+    // return the initial pointer of each cell
     protected abstract Cell getInitialPointer(int row, int col);
 
+    // return the initial value of each cell
     protected abstract int getInitialScore(int row, int col);
 
+    // set the values for cells one by one
     protected abstract void fillInCell(Cell currentCell, Cell cellAbove,
                                        Cell cellToLeft, Cell cellAboveLeft);
 
@@ -85,6 +88,7 @@ public abstract class DynamicProgramming {
 
     abstract protected Object getTraceback();
 
+    // print the matrix related to the alignment
     public void printScoreTable() {
         ensureTableIsFilledIn();
         for (int i = 0; i < sequence2.length() + 2; i++) {
@@ -134,6 +138,7 @@ public abstract class DynamicProgramming {
         }
     }
 
+    // checks wether the entire table is filed in
     protected void ensureTableIsFilledIn() {
         if (!isInitialized) {
             initialize();
@@ -143,6 +148,7 @@ public abstract class DynamicProgramming {
         }
     }
 
+    // retrun the dynamic matric after filled
     public Cell[][] getCellTabel(){
         ensureTableIsFilledIn();
         return scoreTable;
